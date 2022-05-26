@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+
+body {
+    background-color:#141414;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navibar {
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    height: 68px;
+    width:100%;
+    max-width: 1800px;
+    margin:5px auto;
+ }
+
+.navibar img {
+    width: 100px;
+}
+
+.section-container {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    transform:translateY(190px)
+}
+
+.section-container .whoiswatching p {
+    color:white;
+    font-size:4.25rem;
+}
+
+.profile-photos-container {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: wrap;
+}
+
+.profile-photos {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align: center;
+    margin:20px;
+    padding-top:2rem;
+}
+
+.profile-photos:hover img{
+    border:2px solid white;
+    cursor: pointer;
+}
+
+.profile-photos:hover p {
+    color:white !important;
+}
+
+.section-container .profile-photos p {
+    color:grey;
+    padding-top:20px;
+    font-size:1.5rem;
+}
+
+.profile-settings {
+    display: flex;
+    width: 270px;
+    justify-content:center;
+    align-items:center;
+    margin-top : 4.5rem;
+    border:1px solid grey;
+    transition:all .3s;
+}
+
+.section-container .profile-photos img {
+    width: 190px;
+    border-radius:8px;
+    overflow: hidden;
+}
+.profile-settings:hover{
+    border:1px solid white;
+    cursor:pointer;
+}
+
+.profile-settings:hover p {
+    color:White;
+}
+.profile-settings p {
+    color:grey;
+    font-size:1.6rem;
+    padding:10px 5px;
+}
+
